@@ -497,6 +497,11 @@
               <FileType>1</FileType>
               <FilePath>..\Libraries\component_drivers\src\uart.c</FilePath>
             </File>
+            <File>
+              <FileName>debug.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Libraries\component_drivers\src\debug.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -511,6 +516,11 @@
               <FileName>kalman_filter.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Libraries\service_modules\src\kalman_filter.c</FilePath>
+            </File>
+            <File>
+              <FileName>PID.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Libraries\service_modules\src\PID.c</FilePath>
             </File>
           </Files>
         </Group>

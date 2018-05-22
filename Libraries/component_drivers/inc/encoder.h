@@ -8,10 +8,10 @@
 
 /* macro(?) */
 #define ENCODER_PERIOD 0xFFFF
-#define ENCODER_PIN_A GPIO_Pin_0
-#define ENCODER_PIN_B GPIO_Pin_1
-#define PIN_SOURCE_ENC_A GPIO_PinSource0
-#define PIN_SOURCE_ENC_B GPIO_PinSource1
+#define ENCODER_PIN_A GPIO_Pin_12
+#define ENCODER_PIN_B GPIO_Pin_13
+#define PIN_SOURCE_ENC_A GPIO_PinSource12
+#define PIN_SOURCE_ENC_B GPIO_PinSource13
 #define DEFAULT_VALUE_COUNTER 0
 
 
@@ -19,8 +19,9 @@
 void v_InitEncoder (void);
 int32_t i32_GetCycles( void );
 void v_SetCycles( int32_t i32_value );
-int32_t i32_GetEncoderValue( void );
-void v_SetEncoderValue( uint32_t ui32_SetValue );
+uint32_t ui32_GetEncoderValue( void );
+void v_SetEncoderValue( uint32_t ui32_SetValue);
+int32_t i32_GetPosition( void );
 void v_EncoderHandle( void );
 
 #endif

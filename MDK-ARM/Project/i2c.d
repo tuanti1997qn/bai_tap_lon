@@ -44,6 +44,8 @@
 .\project\i2c.o: ..\Libraries\component_drivers\inc\PWM.h
 .\project\i2c.o: ..\Libraries\component_drivers\inc\encoder.h
 .\project\i2c.o: ..\Libraries\component_drivers\inc\uart.h
+.\project\i2c.o: ..\Libraries\component_drivers\inc\debug.h
 .\project\i2c.o: ..\Libraries\service_modules\inc\mpu6050.h
 .\project\i2c.o: ..\Libraries\service_modules\inc\kalman_filter.h
+.\project\i2c.o: ..\Libraries\service_modules\inc\PID.h
 .\project\i2c.o: ..\Libraries\aplication modules\inc\state_machine.h

@@ -52,10 +52,12 @@
 #include "PWM.h"
 #include "encoder.h"
 #include "uart.h"
+#include "debug.h"
 
 /*component drivers --------------------------------------------------------------*/
 #include "mpu6050.h"
 #include "kalman_filter.h"
+#include "PID.h"
 
 
 /*----------------------------------------------------------------------------------*/

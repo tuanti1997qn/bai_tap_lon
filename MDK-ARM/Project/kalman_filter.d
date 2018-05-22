@@ -44,6 +44,8 @@
 .\project\kalman_filter.o: ..\Libraries\component_drivers\inc\PWM.h
 .\project\kalman_filter.o: ..\Libraries\component_drivers\inc\encoder.h
 .\project\kalman_filter.o: ..\Libraries\component_drivers\inc\uart.h
+.\project\kalman_filter.o: ..\Libraries\component_drivers\inc\debug.h
 .\project\kalman_filter.o: ..\Libraries\service_modules\inc\mpu6050.h
 .\project\kalman_filter.o: ..\Libraries\service_modules\inc\kalman_filter.h
+.\project\kalman_filter.o: ..\Libraries\service_modules\inc\PID.h
 .\project\kalman_filter.o: ..\Libraries\aplication modules\inc\state_machine.h

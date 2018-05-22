@@ -44,6 +44,8 @@
 .\project\mpu6050.o: ..\Libraries\component_drivers\inc\PWM.h
 .\project\mpu6050.o: ..\Libraries\component_drivers\inc\encoder.h
 .\project\mpu6050.o: ..\Libraries\component_drivers\inc\uart.h
+.\project\mpu6050.o: ..\Libraries\component_drivers\inc\debug.h
 .\project\mpu6050.o: ..\Libraries\service_modules\inc\mpu6050.h
 .\project\mpu6050.o: ..\Libraries\service_modules\inc\kalman_filter.h
+.\project\mpu6050.o: ..\Libraries\service_modules\inc\PID.h
 .\project\mpu6050.o: ..\Libraries\aplication modules\inc\state_machine.h

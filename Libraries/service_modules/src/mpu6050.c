@@ -79,20 +79,6 @@ void v_Mpu6050_get_Gyro_Raw(int16_t* data)
 }
 
 
-void v_TimerOverFlow( void )
-{
-    static int8_t i8_toggle_led;
-    if(i8_toggle_led == 0){
-        i8_toggle_led = 1;
-        GPIO_SetBits( GPIOD , GPIO_Pin_14 );
-    }
-    else{
-        i8_toggle_led = 0;
-        GPIO_ResetBits( GPIOD , GPIO_Pin_14 );
-    }
-    v_SetStateStatus( 1 );
-}
-
 /* static function ----------------------------------------------------------------------- */
 
 /* use led PD14 */

@@ -1,9 +1,12 @@
 #include "uart.h"
 
 #define		BUFF_SIZE_TX		6
-#define		BUFF_SIZE_RX		3
+#define		BUFF_SIZE_RX		17
 uint8_t     txbuff[] = {'a',2,3,4,5,6};
-uint8_t 	rxbuff[3];
+uint8_t 	rxbuff[17];
+uint8_t* test2;
+float* test;
+union float_convert uni_RxBuff,abc;
 
 void v_Uart_InitUart(int16_t baudrate)
 {
@@ -100,7 +103,7 @@ void v_Uart_InitUart(int16_t baudrate)
     /* DMA1 Stream2 Channel4 for USART4 Rx configuration */			
     DMA_InitStructure.DMA_Channel = DMA_Channel_4;  
     DMA_InitStructure.DMA_PeripheralBaseAddr = (uint32_t)&UART4->DR;
-    DMA_InitStructure.DMA_Memory0BaseAddr = (uint32_t)txbuff;
+    DMA_InitStructure.DMA_Memory0BaseAddr = (uint32_t)rxbuff;
     DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralToMemory;
     DMA_InitStructure.DMA_BufferSize = BUFF_SIZE_RX;
     DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable;
@@ -148,9 +151,32 @@ void v_SendTxBuffer(int8_t* i8_TxData)
     }
 }
 
+
 void DMA1_Stream2_IRQHandler(void)
 {
     /* Clear the DMA1_Stream2 TCIF2 pending bit */
     DMA_ClearITPendingBit(DMA1_Stream2, DMA_IT_TCIF2);
     DMA_Cmd(DMA1_Stream2, ENABLE);
+}
+
+void v_Convert(void)
+{
+	uni_RxBuff.so[0] = rxbuff[0];
+	for(int cnt =0; cnt<16;cnt++)
+	{
+		uni_RxBuff.so[cnt+4] = rxbuff[cnt+1];
+	}
+	v_SetPGain(uni_RxBuff.stru_Buffer.KpValue);
+	v_SetIGain(uni_RxBuff.stru_Buffer.KiValue);
+	v_SetDGain(uni_RxBuff.stru_Buffer.KdValue);
+}
+
+float f_GetSetPoint( void )
+{
+		return uni_RxBuff.stru_Buffer.SetPoint;
+}
+
+int8_t i8_GetMode( void )
+{
+		return uni_RxBuff.stru_Buffer.Mode;
 }

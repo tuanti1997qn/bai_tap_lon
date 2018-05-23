@@ -2,6 +2,7 @@
 .\project\timer.o: ..\Libraries\component_drivers\inc\timer.h
 .\project\timer.o: ..\..\blablacaixe\main.h
 .\project\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\project\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\project\timer.o: ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\project\timer.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
 .\project\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

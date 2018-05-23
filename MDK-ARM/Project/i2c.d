@@ -2,6 +2,7 @@
 .\project\i2c.o: ..\Libraries\component_drivers\inc\i2c.h
 .\project\i2c.o: ..\..\blablacaixe\main.h
 .\project\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\project\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\project\i2c.o: ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\project\i2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
 .\project\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

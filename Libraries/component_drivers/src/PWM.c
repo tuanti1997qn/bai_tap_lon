@@ -44,5 +44,14 @@ void v_SetPulse( uint16_t ui16_Pulse )
 
 void v_SetPulseRate( float f_Rate)
 {
+		if(f_Rate>0)
+		{
+			GPIO_ResetBits(GPIOD,GPIO_Pin_11);
+		}
+		else if (f_Rate<0)
+		{
+			GPIO_SetBits(GPIOD,GPIO_Pin_11);
+			f_Rate = 100+f_Rate;
+		}
     v_SetPulse(TIM_PERIOD*f_Rate/100);
 }

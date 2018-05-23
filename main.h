@@ -31,7 +31,7 @@
 
 /* chua biet ghi the nao----------------------------------------------------- */
 #include "math.h"
-
+#include "string.h"
 
 
 /* Includes (khong biet dung tu nao cho ngau)------------------------------------------------------------------*/

@@ -13,5 +13,7 @@ void v_SetDGain( float f32_Value );
 float f32_GetPGain (void);
 float f32_GetIGain (void);
 float f32_GetDGain (void);
+float f32_GetError (void);
+void v_ClearPre(void);
 
 #endif

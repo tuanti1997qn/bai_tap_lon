@@ -1,7 +1,7 @@
 #include "timer.h"
 
 //void v_TimerOverFlow( void );
-
+float a;
 static void v_configNVIC_timer5()
 {
     NVIC_InitTypeDef stru_NVIC_Init;
@@ -36,5 +36,15 @@ void TIM5_IRQHandler( void )
 {
     TIM_ClearITPendingBit( TIM5 , TIM_IT_Update );
     //v_TimerOverFlow();
-    v_Debug_Toggle_led(Led_1);
+    //v_Debug_Toggle_led(Led_1);
+    a=f32_PID_PIDProcess(f_GetSetPoint(),i32_GetPosition());
+    v_SetStateStatus(1);
+		//v_SetPulseRate(-100);
+		/*v_SetPulseRate(0);
+		GPIO_SetBits(GPIOD,GPIO_Pin_11);*/
 }
+
+/*int8_t i8_GetFlag(void)
+{
+
+}*/

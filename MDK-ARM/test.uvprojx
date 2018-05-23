@@ -336,7 +336,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_STDPERIPH_DRIVER,STM32F4XX</Define>
+              <Define>USE_STDPERIPH_DRIVER,STM32F4XX,HSE_VALUE=8000000</Define>
               <Undefine></Undefine>
               <IncludePath>..\..\blablacaixe;..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include;..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc;..\Libraries\component_drivers\inc;..\Libraries\service_modules\inc;..\Libraries\aplication modules\inc</IncludePath>
             </VariousControls>
@@ -501,6 +501,11 @@
               <FileName>debug.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Libraries\component_drivers\src\debug.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Libraries\component_drivers\src\gpio.c</FilePath>
             </File>
           </Files>
         </Group>

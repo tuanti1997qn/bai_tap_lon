@@ -45,6 +45,7 @@
 .\project\state_machine.o: ..\Libraries\component_drivers\inc\encoder.h
 .\project\state_machine.o: ..\Libraries\component_drivers\inc\uart.h
 .\project\state_machine.o: ..\Libraries\component_drivers\inc\debug.h
+.\project\state_machine.o: ..\Libraries\component_drivers\inc\gpio.h
 .\project\state_machine.o: ..\Libraries\service_modules\inc\mpu6050.h
 .\project\state_machine.o: ..\Libraries\service_modules\inc\kalman_filter.h
 .\project\state_machine.o: ..\Libraries\service_modules\inc\PID.h

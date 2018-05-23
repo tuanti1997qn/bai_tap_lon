@@ -53,6 +53,7 @@
 #include "encoder.h"
 #include "uart.h"
 #include "debug.h"
+#include "gpio.h"
 
 /*component drivers --------------------------------------------------------------*/
 #include "mpu6050.h"

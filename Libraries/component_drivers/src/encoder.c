@@ -72,7 +72,16 @@ void v_SetEncoderValue( uint32_t ui32_SetValue )
 
 int32_t i32_GetPosition( void )
 {
-		return ( 65536*i32_GetCycles() + ui32_GetEncoderValue() );
+    return ( 65536*i32_GetCycles() + ui32_GetEncoderValue() );
+}
+
+float f32_GetPosition( int32_t i32_PositionValue, float f32_dt )
+{
+    static float i32_PrePositionValue=0;
+    float f32_Result;
+    f32_Result = (float)(i32_PositionValue-i32_PrePositionValue)/f32_dt;
+    i32_PrePositionValue = i32_PositionValue;
+    return f32_Result;
 }
 
 /* static function*/

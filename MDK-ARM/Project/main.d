@@ -44,6 +44,7 @@
 .\project\main.o: ..\Libraries\component_drivers\inc\encoder.h
 .\project\main.o: ..\Libraries\component_drivers\inc\uart.h
 .\project\main.o: ..\Libraries\component_drivers\inc\debug.h
+.\project\main.o: ..\Libraries\component_drivers\inc\gpio.h
 .\project\main.o: ..\Libraries\service_modules\inc\mpu6050.h
 .\project\main.o: ..\Libraries\service_modules\inc\kalman_filter.h
 .\project\main.o: ..\Libraries\service_modules\inc\PID.h

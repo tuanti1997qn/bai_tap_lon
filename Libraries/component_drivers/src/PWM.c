@@ -8,8 +8,8 @@ void v_PWM_Config(void)
     stru_GpioInit.GPIO_Mode  = GPIO_Mode_AF;
     stru_GpioInit.GPIO_OType = GPIO_OType_PP;
     stru_GpioInit.GPIO_Pin   = GPIO_Pin_6;
-    stru_GpioInit.GPIO_PuPd  = GPIO_PuPd_UP;
-    stru_GpioInit.GPIO_Speed = GPIO_Speed_50MHz;  
+    stru_GpioInit.GPIO_PuPd  = GPIO_PuPd_NOPULL;
+    stru_GpioInit.GPIO_Speed = GPIO_Speed_2MHz;  
     GPIO_Init( GPIOC , &stru_GpioInit);
     GPIO_PinAFConfig( GPIOC , GPIO_PinSource6 , GPIO_AF_TIM3);
 

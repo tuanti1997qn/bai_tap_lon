@@ -19,6 +19,7 @@
 ".\project\encoder.o"
 ".\project\uart.o"
 ".\project\debug.o"
+".\project\gpio.o"
 ".\project\mpu6050.o"
 ".\project\kalman_filter.o"
 ".\project\pid.o"

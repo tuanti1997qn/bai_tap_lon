@@ -27,8 +27,7 @@ void v_PWM_Config(void)
     stru_OcInit.TIM_OCIdleState = TIM_OCIdleState_Reset;
     stru_OcInit.TIM_OCMode      = TIM_OCMode_PWM1;
     stru_OcInit.TIM_OCIdleState = TIM_OCIdleState_Set;
-    stru_OcInit.TIM_OCPolarity  = TIM_OCPolarity_High; /* chua hieu lam */
-   // stru_OcInit.TIM_OCPolarity  = TIM_OCPolarity_High; /* cung không hieu */
+    stru_OcInit.TIM_OCPolarity  = TIM_OCPolarity_High; 
     stru_OcInit.TIM_OutputState = TIM_OutputState_Enable;
 	stru_OcInit.TIM_Pulse   		= DEFAULT_PULSE;
     TIM_OC1Init( TIM3 , &stru_OcInit );

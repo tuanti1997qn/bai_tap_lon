@@ -37,7 +37,7 @@ void TIM5_IRQHandler( void )
     TIM_ClearITPendingBit( TIM5 , TIM_IT_Update );
     //v_TimerOverFlow();
     //v_Debug_Toggle_led(Led_1);
-    a=f32_PID_PIDProcess(f_GetSetPoint(),i32_GetPosition());
+    //a=f32_PID_PIDProcess(f_GetSetPoint(),i32_GetPosition());
     v_SetStateStatus(1);
 		//v_SetPulseRate(-100);
 		/*v_SetPulseRate(0);

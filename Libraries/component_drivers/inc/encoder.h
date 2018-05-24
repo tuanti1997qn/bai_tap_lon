@@ -22,6 +22,7 @@ void v_SetCycles( int32_t i32_value );
 uint32_t ui32_GetEncoderValue( void );
 void v_SetEncoderValue( uint32_t ui32_SetValue);
 int32_t i32_GetPosition( void );
+float f32_GetVelociy( int32_t i32_PositionValue, float f32_dt );
 void v_EncoderHandle( void );
 
 #endif

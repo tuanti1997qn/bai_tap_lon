@@ -42,13 +42,13 @@ I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\..\blablacaixe\main.h)(0x5B05A251)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
 F (..\stm32f4xx_it.c)(0x5B015EDB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\stm32f4xx_it.o --omf_browse .\project\stm32f4xx_it.crf --depend .\project\stm32f4xx_it.d)
 I (..\stm32f4xx_it.h)(0x5B015EDB)
@@ -526,15 +526,15 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.
 I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5B015EDB)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
-F (..\Libraries\component_drivers\src\timer.c)(0x5B05CAE9)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\timer.o --omf_browse .\project\timer.crf --depend .\project\timer.d)
+F (..\Libraries\component_drivers\src\timer.c)(0x5B060729)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\timer.o --omf_browse .\project\timer.crf --depend .\project\timer.d)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\..\blablacaixe\main.h)(0x5B05A251)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
@@ -576,15 +576,15 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.
 I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5B015EDB)
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
-F (..\Libraries\component_drivers\src\PWM.c)(0x5B058971)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\pwm.o --omf_browse .\project\pwm.crf --depend .\project\pwm.d)
+F (..\Libraries\component_drivers\src\PWM.c)(0x5B060841)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\pwm.o --omf_browse .\project\pwm.crf --depend .\project\pwm.d)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
 I (..\..\blablacaixe\main.h)(0x5B05A251)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
@@ -626,16 +626,16 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.
 I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5B015EDB)
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
 F (..\Libraries\component_drivers\src\encoder.c)(0x5B043D1E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\encoder.o --omf_browse .\project\encoder.crf --depend .\project\encoder.d)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
 I (..\..\blablacaixe\main.h)(0x5B05A251)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -677,15 +677,15 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
-F (..\Libraries\component_drivers\src\uart.c)(0x5B05CA9A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\uart.o --omf_browse .\project\uart.crf --depend .\project\uart.d)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+F (..\Libraries\component_drivers\src\uart.c)(0x5B05CCC4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\uart.o --omf_browse .\project\uart.crf --depend .\project\uart.d)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\..\blablacaixe\main.h)(0x5B05A251)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -727,12 +727,12 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
 F (..\Libraries\component_drivers\src\debug.c)(0x5B03DBD0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\debug.o --omf_browse .\project\debug.crf --depend .\project\debug.d)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
@@ -777,12 +777,12 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
 F (..\Libraries\component_drivers\src\gpio.c)(0x5B0577E9)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\gpio.o --omf_browse .\project\gpio.crf --depend .\project\gpio.d)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
@@ -827,12 +827,12 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
 F (..\Libraries\service_modules\src\mpu6050.c)(0x5B0366EB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\mpu6050.o --omf_browse .\project\mpu6050.crf --depend .\project\mpu6050.d)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
@@ -877,12 +877,12 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
 F (..\Libraries\service_modules\src\kalman_filter.c)(0x5B015EDB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\kalman_filter.o --omf_browse .\project\kalman_filter.crf --depend .\project\kalman_filter.d)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
@@ -927,15 +927,15 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
-F (..\Libraries\service_modules\src\PID.c)(0x5B05A426)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\pid.o --omf_browse .\project\pid.crf --depend .\project\pid.d)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+F (..\Libraries\service_modules\src\PID.c)(0x5B05CFC8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\pid.o --omf_browse .\project\pid.crf --depend .\project\pid.d)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
 I (..\..\blablacaixe\main.h)(0x5B05A251)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -977,14 +977,14 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
-F (..\Libraries\aplication modules\src\state_machine.c)(0x5B05CB80)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\state_machine.o --omf_browse .\project\state_machine.crf --depend .\project\state_machine.d)
+F (..\Libraries\aplication modules\src\state_machine.c)(0x5B060881)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\state_machine.o --omf_browse .\project\state_machine.crf --depend .\project\state_machine.d)
 I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
 I (..\..\blablacaixe\main.h)(0x5B05A251)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
@@ -1027,10 +1027,61 @@ I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.
 I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
 I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
 I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
-I (..\Libraries\component_drivers\inc\encoder.h)(0x5B041FAA)
-I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CAD1)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060B26)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
 I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
 I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
 I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
 I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
-I (..\Libraries\service_modules\inc\PID.h)(0x5B05A460)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
+F (..\Libraries\aplication modules\src\fuzzy_controller.c)(0x5ACD6295)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\blablacaixe -I ..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Libraries\component_drivers\inc -I ..\Libraries\service_modules\inc -I "..\Libraries\aplication modules\inc"-I.\RTE\_baitaplon-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" --C99-o .\project\fuzzy_controller.o --omf_browse .\project\fuzzy_controller.crf --depend .\project\fuzzy_controller.d)
+I (..\Libraries\aplication modules\inc\fuzzy_controller.h)(0x5ACD639E)
+I (..\..\blablacaixe\main.h)(0x5B05A251)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5B015ED9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E2DF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A55A3F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E2DF2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E2DF2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E2DF2)
+I (..\Libraries\low_level_drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5B015ED9)
+I (..\..\blablacaixe\stm32f4xx_conf.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x5B015EDB)
+I (..\Libraries\low_level_drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5B015EDB)
+I (..\Libraries\component_drivers\inc\i2c.h)(0x5B02E377)
+I (..\Libraries\component_drivers\inc\timer.h)(0x5B015ED8)
+I (..\Libraries\component_drivers\inc\PWM.h)(0x5B0579E9)
+I (..\Libraries\component_drivers\inc\encoder.h)(0x5B060ADC)
+I (..\Libraries\component_drivers\inc\uart.h)(0x5B05CCC9)
+I (..\Libraries\component_drivers\inc\debug.h)(0x5B036135)
+I (..\Libraries\component_drivers\inc\gpio.h)(0x5B056C33)
+I (..\Libraries\service_modules\inc\mpu6050.h)(0x5B015EDB)
+I (..\Libraries\service_modules\inc\kalman_filter.h)(0x5B015EDB)
+I (..\Libraries\service_modules\inc\PID.h)(0x5B05CFD0)
+I (..\Libraries\aplication modules\inc\state_machine.h)(0x5B015ED8)
